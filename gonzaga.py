@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup as bs
 
 url = 'https://www.sports-reference.com/cbb/schools/gonzaga/2019.html'
 
+# Pulling data for Gonzaga 
+
 page = requests.get(url)
 soup = bs(page.text, 'html.parser')
 
