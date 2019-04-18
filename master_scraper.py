@@ -1,7 +1,5 @@
 import requests
 from bs4 import BeautifulSoup as bs
-import numpy as np
-
 #new line
 
 url = 'https://www.sports-reference.com/cbb/seasons/2019-ratings.html'
